@@ -18,3 +18,5 @@ console.log(inputdata)
 
 const fullname = `${name} ${lastname}`
 console.log(fullname)
+// Fredy Ballesteros
+//Desarrollo SW2
