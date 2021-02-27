@@ -48,5 +48,3 @@ const person1 ={
 console.log(person1)
 const person3 = { ...person1}
 console.log(person3)
-
-
