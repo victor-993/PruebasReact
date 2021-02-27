@@ -2,8 +2,8 @@
 //juan camilo gonzalez
 console.log('hola 1')
 
-const name = 'freddy';
-const lastname = 'ballesteros';
+const name = 'Fredy';
+const lastname = 'Ballesteros';
 
 let inputdata = 8;
 inputdata = 4;
@@ -32,11 +32,11 @@ const person ={
     age:43
 }
 
-cosole.table(person);
+console.table(person);
 const person1 ={
-    name: 'Fredy,
+    name: 'Fredy',
      lastname: 'Ballesteros',
-     age:43
+     age:43,
      address: {
         city: 'Cali',
         zip: 6544,
