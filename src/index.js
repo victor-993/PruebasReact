@@ -2,8 +2,8 @@
 //juan camilo gonzalez
 console.log('hola 1')
 
-const name = 'freddy';
-const lastname = 'ballesteros';
+const name = 'Fredy';
+const lastname = 'Ballesteros';
 
 let inputdata = 8;
 inputdata = 4;
@@ -23,3 +23,28 @@ console.log(fullname)
 
 let i = 0
 i++
+//cesar solano
+
+
+const person ={
+    name: 'Fredy',
+    lastname: 'Ballesteros',
+    age:43
+}
+
+console.table(person);
+const person1 ={
+    name: 'Fredy',
+     lastname: 'Ballesteros',
+     age:43,
+     address: {
+        city: 'Cali',
+        zip: 6544,
+        lat: 14.24,
+        ing: 34.52
+     }
+}
+
+console.log(person1)
+const person3 = { ...person1}
+console.log(person3)
