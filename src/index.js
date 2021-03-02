@@ -1,50 +1,13 @@
-//Ajustar texto
-//juan camilo gonzalez
-console.log('hola 1')
 
-const name = 'Fredy';
-const lastname = 'Ballesteros';
-
-let inputdata = 8;
-inputdata = 4;
-
-console.log(name, lastname, inputdata)
-
-if (true){
-    let inputdata = 78
-    console.log(inputdata)
-}
-console.log(inputdata)
-
-const fullname = `${name} ${lastname}`
-console.log(fullname)
-// Fredy Ballesteros
-//Desarrollo SW2
-
-let i = 0
-i++
-//cesar solano
+//Cristian Guzman
+// 1630275-2711
 
 
-const person ={
-    name: 'Fredy',
-    lastname: 'Ballesteros',
-    age:43
-}
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Contador from './Contador'
+import estilo from './index.css'
 
-console.table(person);
-const person1 ={
-    name: 'Fredy',
-     lastname: 'Ballesteros',
-     age:43,
-     address: {
-        city: 'Cali',
-        zip: 6544,
-        lat: 14.24,
-        ing: 34.52
-     }
-}
 
-console.log(person1)
-const person3 = { ...person1}
-console.log(person3)
+const divRoot= document.querySelector('#root')
+ReactDOM.render(<Contador valorinicial={1}/>,divRoot)
