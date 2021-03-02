@@ -1,52 +1,14 @@
-//Ajustar texto
-//juan camilo gonzalez
-console.log('hola 1')
 
-const name = 'freddy';
-const lastname = 'ballesteros';
+// cesar Solano Cod: 1741675
+import Ract from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import ContadorCesar from './ContadorCesar'
 
-let inputdata = 8;
-inputdata = 4;
-
-console.log(name, lastname, inputdata)
-
-if (true){
-    let inputdata = 78
-    console.log(inputdata)
-}
-console.log(inputdata)
-
-const fullname = `${name} ${lastname}`
-console.log(fullname)
-// Fredy Ballesteros
-//Desarrollo SW2
-
-let i = 0
-i++
-//cesar solano
+const divRoot = document.querySelector('#root')
 
 
-const person ={
-    name: 'Fredy',
-    lastname: 'Ballesteros',
-    age:43
-}
+ReactDOM.render(<ContadorCesar priPro= "123" proText = "Textooo"/> ,divRoot)
 
-cosole.table(person);
-const person1 ={
-    name: 'Fredy,
-     lastname: 'Ballesteros',
-     age:43
-     address: {
-        city: 'Cali',
-        zip: 6544,
-        lat: 14.24,
-        ing: 34.52
-     }
-}
-
-console.log(person1)
-const person3 = { ...person1}
-console.log(person3)
 
 
