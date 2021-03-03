@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Contador from './counter';
+import React from 'react'
+import ReactDom from 'react-dom'
 
-ReactDOM.render(
-    <Contador propText="Alex"/>,
-    document.getElementById('root')
-);
+import PrimerComponente from './PrimerComponente'
+
+const divRoot = document.querySelector('#root')
+
+ReactDom.render(<PrimerComponente propNum="0"/>, divRoot)
 
