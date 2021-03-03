@@ -6,3 +6,4 @@ ReactDOM.render(
     <Contador propText="Alex"/>,
     document.getElementById('root')
 );
+
