@@ -11,3 +11,4 @@ import estilo from './index.css'
 
 const divRoot= document.querySelector('#root')
 ReactDOM.render(<Contador valorinicial={1}/>,divRoot)
+

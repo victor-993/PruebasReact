@@ -27,3 +27,4 @@ Contador.propTypes = {
 }
 
 export default Contador
+
