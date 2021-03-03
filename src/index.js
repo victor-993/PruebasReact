@@ -1,12 +1,10 @@
-//Leidy Vanesa Cifuentes 1629458
-
+// Cristian Danilo Velasquez Olaya 1740520
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Contador from './Contador'
-import index from './index.css'
 
-
+import Primercomponente from './Primercomponente'
 
 const divRoot = document.querySelector('#root')
 
-ReactDOM.render(<Contador />, divRoot)
+ReactDOM.render(<Primercomponente propNum={1} />,divRoot)
+
