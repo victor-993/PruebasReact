@@ -1,8 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import ContadorDinamico from './Componentes/contadorDinamico'
-import './index.css'
+//CRISTIAN MEDINA 1824150
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-// Santiago Calderon - 1842025
+import Contador from './components/contador';
 
-ReactDOM.render(<React.StrictMode><ContadorDinamico inicio={0}/></React.StrictMode>,document.querySelector('#root'))
+const divRoot = document.querySelector('#root');
+
+ReactDOM.render(<Contador name="Cristian Medina"/>, divRoot);
+
