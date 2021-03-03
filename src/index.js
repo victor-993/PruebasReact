@@ -10,5 +10,3 @@ const divRoot = document.querySelector('#root')
 
 ReactDOM.render(<ContadorCesar priPro= "123" proText = "Textooo"/> ,divRoot)
 
-
-
