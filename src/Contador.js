@@ -11,8 +11,6 @@ const Contador = ()=>{
            <button onClick={() => setContador(contador +1) }> Aumentar </button> 
             <button onClick= {() => setContador(contador -1)}> Restar </button>
             <button onClick= {() => setContador(0) }> Reset </button>
-            
-
         </Fragment>
     )
 
