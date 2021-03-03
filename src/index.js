@@ -7,3 +7,4 @@ import Primercomponente from './Primercomponente'
 const divRoot = document.querySelector('#root')
 
 ReactDOM.render(<Primercomponente propNum={1} />,divRoot)
+
