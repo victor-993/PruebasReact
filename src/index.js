@@ -6,3 +6,4 @@ import PrimerComponente from './PrimerComponente'
 const divRoot = document.querySelector('#root')
 
 ReactDom.render(<PrimerComponente propNum="0"/>, divRoot)
+
