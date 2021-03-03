@@ -1,14 +1,12 @@
-
-//Cristian Guzman
-// 1630275-2711
-
+//Leidy Vanesa Cifuentes 1629458
 
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Contador from './Contador'
-import estilo from './index.css'
+import index from './index.css'
 
 
-const divRoot= document.querySelector('#root')
-ReactDOM.render(<Contador valorinicial={1}/>,divRoot)
 
+const divRoot = document.querySelector('#root')
+
+ReactDOM.render(<Contador />, divRoot)
