@@ -1,10 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import ContadorDinamico from './Componentes/contadorDinamico'
 import './index.css'
-import Primercompon from './Primercompon'
 
+// Santiago Calderon - 1842025
 
-
-const divRoot = document.querySelector('#root')
-
-ReactDOM.render(<Primercompon  priProp="123" propText="Soy texto" /> ,divRoot)
+ReactDOM.render(<React.StrictMode><ContadorDinamico inicio={0}/></React.StrictMode>,document.querySelector('#root'))
