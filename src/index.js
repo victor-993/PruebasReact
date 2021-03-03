@@ -1,12 +1,9 @@
-
-// cesar Solano Cod: 1741675
-import Ract from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
+import Contador from './Contador'
 import './index.css'
-import ContadorCesar from './ContadorCesar'
+
 
 const divRoot = document.querySelector('#root')
 
-
-ReactDOM.render(<ContadorCesar priPro= "123" proText = "Textooo"/> ,divRoot)
-
+ReactDOM.render(<Contador priProp= "123" propText= "Soy texxto" />, divRoot)
