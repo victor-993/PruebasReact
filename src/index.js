@@ -1,8 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Contador from './contador'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Contador from './Contador';
 
-const divroot = document.querySelector('#root')
 
-ReactDOM.render(<Contador time={0} />, divroot)
+const divRoot = document.querySelector('#root');
+
+ReactDOM.render(<Contador />, divRoot)
 
