@@ -1,9 +1,12 @@
+
+//Juan Camilo Gonzalez 1735277-2711
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Contador from './Contador'
-import './index.css'
+import PrimerCompon from './PrimerCompon'
+
 
 
 const divRoot = document.querySelector('#root')
+ReactDOM.render(<PrimerCompon primerProp/>, divRoot)
+//ReactDOM.render(<React.StrictMode><PrimerCompon inicio={0}/></React.StrictMode>,document.querySelector('#root'))
 
-ReactDOM.render(<Contador priProp= "123" propText= "Soy texxto" />, divRoot)
