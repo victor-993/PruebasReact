@@ -1,12 +1,14 @@
 
-//Juan Camilo Gonzalez 1735277-2711
+//Cristian Guzman
+// 1630275-2711
+
+
 import React from 'react'
 import ReactDOM from 'react-dom'
-import PrimerCompon from './PrimerCompon'
+import Contador from './Contador'
+import estilo from './index.css'
 
 
-
-const divRoot = document.querySelector('#root')
-ReactDOM.render(<PrimerCompon primerProp/>, divRoot)
-//ReactDOM.render(<React.StrictMode><PrimerCompon inicio={0}/></React.StrictMode>,document.querySelector('#root'))
+const divRoot= document.querySelector('#root')
+ReactDOM.render(<Contador valorinicial={1}/>,divRoot)
 

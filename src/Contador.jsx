@@ -1,24 +1,30 @@
-import React,{useState} from 'react';
+import React,{useState} from 'react'
+import PropTypes from 'prop-types'
 
-const Contador = () => {
+const Contador = ({valorinicial}) =>{
 
-    const [contador, setContador] = useState(0);
+    
 
-    return ( 
+    const[cont,setCont] = useState(valorinicial);
+
+
+    return(
         <>
-            <h1>Contador {contador}</h1>
-            <button
-                onClick={() => {if(contador > 0) setContador(contador-1)}}
-            >Restar</button>                    
-            <button
-                onClick={() => setContador(0)}
-            >Resetear</button>
-             <button
-                onClick={() => setContador(contador+1)}
-            >Sumar</button> 
+            <h1>contador = {cont}</h1>
+            <button onClick={() => setCont(cont+1)}>Aumentar</button>
+            <button onClick={() => setCont(cont-1)}>Restar</button>
+            <button onClick={() => setCont(0)}>Reset</button>
         </>
-    );
+    )
+
+
+
+
 }
 
- 
-export default Contador;
+Contador.propTypes = {
+    cont: PropTypes.number.isRequired
+}
+
+export default Contador
+
