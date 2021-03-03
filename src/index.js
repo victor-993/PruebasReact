@@ -1,10 +1,10 @@
-//CRISTIAN MEDINA 1824150
-import React from 'react';
-import ReactDOM from 'react-dom';
+//Joan Suarez - 1828989
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import Contador from './components/contador';
+import Contador from './Contador'
 
-const divRoot = document.querySelector('#root');
+const divRoot = document.querySelector('#root')
 
-ReactDOM.render(<Contador name="Cristian Medina"/>, divRoot);
+ReactDOM.render(<Contador acumulado />, divRoot)
 
