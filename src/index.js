@@ -1,10 +1,8 @@
-// Cristian Danilo Velasquez Olaya 1740520
-import React from 'react'
-import ReactDOM from 'react-dom'
+//Leonardo Bolaños García 1826808
+import Contador from './contador'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import Primercomponente from './Primercomponente'
+const divRoot = document.querySelector('#root');
 
-const divRoot = document.querySelector('#root')
-
-ReactDOM.render(<Primercomponente propNum={1} />,divRoot)
-
+ReactDOM.render(<Contador name="Leonardo Bolaños"/>, divRoot);
