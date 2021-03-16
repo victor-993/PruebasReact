@@ -5,4 +5,4 @@ import ReactDOM from 'react-dom';
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<Contador name="Leonardo Bolaños"/>, divRoot);
+ReactDOM.render(<Contador name="Leonardo Bolaños" propNum={10} />, divRoot);
