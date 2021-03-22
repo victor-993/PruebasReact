@@ -3,10 +3,10 @@
 exports[`Pruebas sobre el componente contador Probando con enzyme 1`] = `
 <Fragment>
   <p>
-    HOLA SOY CONTADOR Fredy
+    HOLA SOY CONTADOR Victor
   </p>
   <h1>
-    HOLA SOY FREDY
+    HOLA SOY VICTOR
   </h1>
   <h2>
     0
